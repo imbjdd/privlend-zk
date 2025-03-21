@@ -1,0 +1,26 @@
+# Git
+.git
+.gitignore
+
+# Node.js
+api/node_modules
+api/npm-debug.log
+api/.npm
+
+# Compiled files
+target/
+
+# Logs
+*.log
+
+# Docker files (to avoid recursive copying)
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Environment files
+.env
+*.env
+
+# Misc
+.DS_Store 
