@@ -1,14 +1,5 @@
-version: '3'
-
 services:
   zk-proof-service:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./target:/zk/target
+    image: imbjddbjdd/testt:latest
+    network_mode: host
     restart: unless-stopped
-    environment:
-      - NODE_ENV=production 

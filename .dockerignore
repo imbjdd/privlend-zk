@@ -24,3 +24,9 @@ docker-compose.yml
 
 # Misc
 .DS_Store 
+
+# Noir
+noir/
+
+# BB
+bb/
