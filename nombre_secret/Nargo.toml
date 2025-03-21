@@ -1,0 +1,6 @@
+[package]
+name = "nombre_secret"
+type = "bin"
+authors = [""]
+
+[dependencies]
